@@ -41,5 +41,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: podinfo
-  targetNamespace: flux-ui
+  targetNamespace: dev
 
