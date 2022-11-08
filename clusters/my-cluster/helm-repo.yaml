@@ -13,7 +13,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: flux-ui
-  namespace: flux-system
+  namespace: dev
 spec:
   interval: 1m0s
-  url: 'https://raw.githubusercontent.com/sureshamk/flux-ui/master/flux-ui'
+  url: https://raw.githubusercontent.com/sureshamk/flux-ui/master/flux-ui
