@@ -12,8 +12,8 @@ spec:
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: flux-ui
+  name: ccowley
   namespace: dev
 spec:
   interval: 1m0s
-  url: https://raw.githubusercontent.com/sureshamk/flux-ui/master/flux-ui
+  url: https://helm.cowley.tech
